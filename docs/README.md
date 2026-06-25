@@ -1,6 +1,6 @@
 # search-meilisearch — documentation
 
-  <img src=".github/assets/togo-mark.svg" alt="togo" height="64" />
+Meilisearch driver for togo full-text search
 
 ## Overview
 
@@ -17,13 +17,12 @@ Set `SEARCH_DRIVER=meilisearch`.
 
 ## Configuration
 
-Environment variables read by this plugin (extracted from the source):
+Environment variables read by this plugin (extracted from the source — see the gateway/provider docs for each value):
 
-| Env var | Notes |
-|---|---|
-| `G` | _see provider docs_ |
-| `MEILI_API_KEY` | _see provider docs_ |
-| `MEILI_HOST` | _see provider docs_ |
+| Env var |
+|---|
+| `MEILI_API_KEY"` |
+| `MEILI_HOST"` |
 
 ## Usage
 
@@ -37,4 +36,4 @@ hits, _ := s.Search(ctx, "posts", "query")
 
 - Marketplace: https://to-go.dev/marketplace
 - Source: https://github.com/togo-framework/search-meilisearch
-- README: ../README.md
+- Full README: ../README.md
