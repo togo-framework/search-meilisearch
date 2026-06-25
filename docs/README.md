@@ -21,8 +21,8 @@ Environment variables read by this plugin (extracted from the source — see the
 
 | Env var |
 |---|
-| `MEILI_API_KEY"` |
-| `MEILI_HOST"` |
+| `MEILI_API_KEY` |
+| `MEILI_HOST` |
 
 ## Usage
 
